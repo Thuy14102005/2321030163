@@ -1,14 +1,12 @@
 # 2321030163
+Cài đặt: https://git-scm.com/; https://github.com/
 
-Cài đặt
-https://code.visualstudio.com/
-https://git-scm.com/
-
-Tạo tài khoản github
+Tạo tài khoản gitHub
 
 Các bước:
-Bước 1: Mở Terminal
-Bước 2: git add .
-Bước 3: git commit -m "Phát triển ứng dụng Web + BTL"
-Bước 4: git pull
-Bước 5: git push
+
+B1: Mở Terminal
+B2: git add .
+B3: git commit -m "Nội dung của commit"
+B4: git pull
+B5: git push
