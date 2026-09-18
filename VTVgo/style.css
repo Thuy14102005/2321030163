@@ -1,0 +1,17 @@
+body{
+    margin:0;
+}
+.danh-muc{
+    display:flex;
+    padding: 5px;
+    background-color:red;
+    margin:0;
+}
+.anh{
+    width:90%;
+    margin: 20px auto;
+}
+.anh-1{
+    width:50%;
+    
+}
