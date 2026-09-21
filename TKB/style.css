@@ -1,0 +1,158 @@
+.menu{
+    background-color: #2fa4e7;
+}
+
+.danh-sach-muc{
+    list-style: none;
+    margin: 0px;
+    display:flex;
+    padding: 5px;
+    gap: 15px;
+}
+.muc{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.danh-muc{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #2fa4e7;
+}
+
+main{
+    display: flex;
+}
+.ben-trai{
+    /* background-color: green; */
+    width: 17%;
+    height: 125vh;
+    border-right: 2px solid #2fa4e7;
+    margin: 0px auto;
+}
+
+.trang-chu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+
+}
+
+hr{
+    width: 95%;
+    margin: 0px auto;
+    border: 0.1px solid #1187cb;
+}
+.thong-tin{
+    color:#2fa4e7;
+    padding: 15px 0px;
+    /* border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.dang-chon{
+    background-color:#a8d8f4;
+}
+
+.thong-tin:hover{
+    background-color: #dedede;
+}
+.cuoi-trang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    /* background-color: pink; */
+}
+.anh{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.noi-dung{
+    width: 70%;
+    height: 90px;
+    
+}
+
+img{
+    width: 95%;
+    margin-top: 100px;
+}
+.ben-phai{
+    /* background-color: blue; */
+    width: 83%;
+    height: 120vh; 
+}
+
+p{
+    margin: 0px auto;
+}
+.xem-tiep{
+    margin: 0px;
+}
+.tin{
+    width: 98%;
+    height: 890px;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+h4{
+    margin: 0px;
+}
+.tin-dau{
+    width: 98%;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    padding: 5px;
+    color: #666565;
+    /* background-color: yellow;     */
+}
+
+.thoi-khoa-bieu{
+    /* background-color: blue; */
+    margin: 0px;
+    gap: 10px;
+    padding: 7px;
+    /* color:#666565; */
+    display: flex;
+}
+
+.gio-hoc{
+    width:98%;
+    margin: 20px auto;
+    padding: 0;
+    /* border: 1px solid #2fa4e7;
+    border-radius: 5px; */
+    /* background-color: red; */
+}
+.tiet-hoc{
+    width: 98%;
+    margin: 0px auto;
+    /* background-color:yellow; */
+}
+
+.mon-hoc{
+    background-color: #58b9f0;
+    border: 2px solid #1180c0;
+}
+
+.gio{
+    background-color: #2fa4e7;
+    color: white;
+}
+
+.hoc{
+    width: 16.5vh;
+    margin: 0px auto;
+    padding: 2px;
+}

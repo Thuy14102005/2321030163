@@ -43,7 +43,7 @@ header {
     width: 50px;
     border-radius: 10px;
 }
-
+/* ví dụ: ".muc" là chọn phần tử; ":hover" là khi rê chuột vào - trạng thái khi ng dùng rê chuột lên phần tử;  */
 .muc:hover {
     background-color: grey;
 }
@@ -60,7 +60,7 @@ header {
 
 .the-loai {
     width: 90%;
-    height: 20vh;
+    /* height: 20vh; */
     /* background-color:red; */
     margin: 10px auto;
 }
@@ -72,7 +72,7 @@ header {
 
 .phim {
     width: 19%;
-    height: 20vh;
+    /* height: 20vh; */
     /* background-color:blue; */
 
     img {
@@ -83,7 +83,7 @@ header {
 
 .nhan-vat {
     width: 30%;
-    height: 20vh;
+    /* height: 20vh; */
     gap: 10px;
 
     img {
@@ -93,13 +93,25 @@ header {
     }
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* background: blue; */
+    padding: 0 20px;
+    align-items: flex-end;
+}
 .mo-ta{
+    /* background-color:red; */
+    margin: 0 300px 0 220px;
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 0;
+    /* height:100px; */
 }
 
-.noi-dung{
-    color:grey;
-    gap:15px;
+.noi-dung-mo-ta{
+    display:flex;
+    justify-content:space-between;
+    /* background-color:green; */
+    color: grey;
 }
