@@ -20,8 +20,13 @@ header{
     display: flex;
     padding: 10px;
     gap: 40px;
-}
+    align-items: center;
 
+}
+.muc{
+    font-weight: bold;
+    margin: 0;
+}
 .lien-ket-muc{
     text-decoration: none;
     color: white;
@@ -58,7 +63,6 @@ header{
     display:flex;
     justify-content: space-between;
 }
-
 .kenh{
     width: 40%;
     /* height: 20vh; */

@@ -117,7 +117,19 @@ h4{
     color: #666565;
     /* background-color: yellow;     */
 }
-
+select{
+    font-size: 16px;
+    padding: 5px 10px;
+    height: auto;
+    border-radius: 7px;
+    border: 1px solid #c9c9c9;
+    color: grey;
+}
+table{
+    border-radius: 5px;
+    border: 1.5px solid #2fa4e7;
+    width: 100%;
+}
 .thoi-khoa-bieu{
     /* background-color: blue; */
     margin: 0px;
@@ -142,8 +154,8 @@ h4{
 }
 
 .mon-hoc{
-    background-color: #58b9f0;
-    border: 2px solid #1180c0;
+    background-color: #cfe2ff;
+    border: 2px solid #2fa4e7;
 }
 
 .gio{
