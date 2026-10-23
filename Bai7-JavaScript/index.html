@@ -236,6 +236,100 @@
             document.writeln("Điểm không hợp lệ");
         }
 
+        //object: var name = {key: value, key: value, ...}
+        var thongTinSinhVien = {
+            hoTen: "Thu Thuy",
+            tuoi: 21,
+            gioiTinh: false, //false: nữ, true: nam
+            diaChi: {
+                thanhPho: "Ha Noi",
+                xa: "Co Do",
+            }
+        };
+        var thongTinPhim = {
+            tenPhim: "Doraemon",
+            daoDien: "Fujiko F. Fujio",
+            namSanXuat: 1973,
+            dienVien: {
+                dienVienChinh: [
+                    "Doraemon", "Nobita", "Shizuka", "Suneo", "Gian"
+                ],
+                dienVienPhu: [
+                    "Dekisugi", "Tamako", "Hidetoshi"
+                ]
+            },
+            theLoai: "Hoạt hình",
+            quocGia: "Nhật Bản",
+        };
+        
+        document.writeln("<br>");
+        document.writeln(thongTinPhim.dienVien.dienVienChinh[0] + "<br>"); //lấy ra diễn viên chính đầu tiên của phim Doraemon
+
+        //swtch case: kiểm tra giá trị của biến và thực hiện các lệnh tương ứng với giá trị đó
+        var d = new Date();
+        var theDay = d.getDay();
+        switch (theDay) {
+            case 5:
+                document.writeln("Finally Friday"); //nếu theDay = 5 thì in ra dòng này
+                break;
+            case 6:
+                document.writeln("Super Saturday"); //nếu theDay = 6 thì in ra dòng này
+                break;
+            case 0:
+                document.writeln("Sleepy Sunday"); //nếu theDay = 0 thì in ra dòng này
+                break;
+            default:
+                document.writeln("I'm Looking forward to this Weekend"); //nếu không phải 5,6,0 thì in ra dòng này
+        };
+
+        //for: vòng lặp for
+        for (var index = 1; index <= 2; index++) { //index: biến đếm, index <= 1000: điều kiện dừng, index++: tăng biến đếm lên 1 đơn vị sau mỗi lần lặp
+            document.writeln("<br>  Xin Chào!" + index); // +index: đánh số thứ tư từ 1 - 1000
+        }
+
+        // var danhSachSinhVien = ["Thuy", "Mai", "Phương", "Hà", "Dương"];
+        // document.writeln("<br> Xin Chào " + danhSachSinhVien[0]);
+        // for (var i = 0; i = danhSachSinhVien.length; i++) {
+        //     // document.writeln("<br>" + i + "<br>");
+        //     document.writeln("Xin Chào" + danhSachSinhVien[i]);
+        //     if (danhSachSinhVien[i] == "Thuy" || danhSachSinhVien == "Thuy"){
+        //         document.writenln("Xin Chào Thuy")
+        //     }
+        //     else if (danhSachSinhVien == 2) {
+        //         document.writenln("Xin Chào Phương")
+        //     }
+        //     else{
+        //     document.writeln("không hợp lệ");
+        //     }
+        // }
+
+        //while: ktra xong mới chạy; do ... while: chạy xong mới ktra
+        // Ví dụ
+        // i = 0
+        // while(i <=10)
+        // {
+        //     document.while("The number is" + i);
+        //     document.write("<br />");
+        //     i=i+1;
+        // }
+
+        //popup boxes
+        // alert("Xin chao!");
+
+        // //confirm
+        // var r = confirm("Press a button")
+        // if (r == true) {
+        //     document.write("You pressed OK!")
+        // }
+        // else {
+        //     document.write("You pressed Cancel!")
+        // }
+
+        //popup boxes: cho phép
+        //prompt
+        var ten1 = prompt("Nhập vào họ tên", "nhập tên vào đây!")
+        document.write(ten1)
+        //functions: hàm
     </script>
     <!-- External JavaScript -->
     <!-- <script src="script.js"></script> -->
